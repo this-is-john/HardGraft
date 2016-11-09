@@ -287,7 +287,7 @@ header{
 .product__el{
 	width: 374px;
 	float: left;
-	margin: 0 39px 40px 0;
+	margin: 0 35px 40px 0;
 }
 .product__el--big{
 	width: 580px;
@@ -666,7 +666,7 @@ button{
 	margin: 0 auto;
 }
 
-.dropbtn {
+.dropbtn{
     background-color: #fff;
     color: grey;
     padding: 15px;
@@ -677,14 +677,14 @@ button{
     cursor: pointer;
 }
 
-.dropdown {
+.dropdown{
     position: relative;
     display: inline-block;
     margin-left: 1000px;
     margin-bottom: 100px;
 }
 
-.dropdown-content {
+.dropdown-content{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -692,7 +692,7 @@ button{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.dropdown-content a {
+.dropdown-content a{
     color: black;
     padding: 12px 12px;
     text-decoration: none;
@@ -701,7 +701,7 @@ button{
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content{
     display: block;
 }
 
@@ -709,14 +709,10 @@ button{
     background-color: #f7f7f7;
 }
 
-.product__listing{
-	margin: 0;
-	padding: 0;
-	list-style: none;
+.container__listing__product{
+	margin-bottom: 950px;
 }
 
-.listing__prod--el{
-	margin-right: 0px;
+.product__el--listing{
 	width: 374px;
-	float: left;
 }
